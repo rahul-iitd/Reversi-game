@@ -12,3 +12,15 @@ Run the code by typing -
 Each player inputs his turn as follows- 
 
 If he wants to place a black disc at a position in the grid then he types 32b in the terminal for placing black disc at the 3rd row and 2nd column, such that the rows and columuns start form 0.                         
+
+
+I have also implimented this game on ARMSim using ARM Architecture Machine Language and its description is as follows-
+
+ARMSim simulator has a plug-in called “Embest Board Plug-in” which simulates a particular ARM processor board. It provides the following virtual input/output devices.
+1. One 8-segment display (output). 
+2. Two red LED lights (output).
+3. Two black buttons (input).
+4. Sixteen blue buttons arranged in a keyboard 4 x 4 grid (input).
+5. One LCD display screen, which is a grid of 40 columns by 15 rows.
+
+Each player in his turn clicks on the Blue keyboard for three times where the first two clicks are for the position where the player wants to place his disc and the third for the color of his disc (Black -> 1 and White -> 0).
