@@ -24,3 +24,7 @@ ARMSim simulator has a plug-in called “Embest Board Plug-in” which simulates
 5. One LCD display screen, which is a grid of 40 columns by 15 rows.
 
 Each player in his turn clicks on the Blue keyboard for three times where the first two clicks are for the position where the player wants to place his disc and the third for the color of his disc (Black -> 1 and White -> 0).
+
+The file to be executed is -  Game.s
+
+All the other .s files are functions used in Game.s
